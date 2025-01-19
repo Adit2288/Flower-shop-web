@@ -1,0 +1,64 @@
+.lato-regular-normal {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  header{
+    display: flex;
+    justify-content:space-evenly;
+    background: rgba(229, 84, 115, 0.1);
+    align-items: center;
+  }
+
+  .head-img {
+    max-width: 18.75rem;
+  }
+
+  .head-img img{
+    width: 100%;
+  }
+   .head-title{
+     font-size: 3rem;
+     font-weight: 600;
+     color: rgb(39, 39, 39);
+     text-align: left;
+   }
+
+   .head-des{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.2rem;
+     font-weight: 500;
+   }
+
+    .btn-primary{
+      
+      padding: 15px 30px;
+      color: white;
+      font-size: 1.3rem;
+font-weight: 700;
+      border-radius: 8px;
+background: rgb(229, 84, 115);
+border: none;
+    }
+
+
+    /* responsive layout */
+
+
+    @media screen and (max-width:576px){
+      
+header{
+    flex-direction: column;
+}
+ .head-title{
+  font-size:2.5rem ;
+ }
+
+  .head-des{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+
+}
